@@ -1,0 +1,5 @@
+a=int(input())
+b=list(map(int,input().split()))
+l=sorted(b)
+print(l[0],end=" ")
+print(l[-1],end=" ")
